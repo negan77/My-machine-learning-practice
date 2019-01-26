@@ -7,7 +7,7 @@ Created on Wed Jan 23 14:38:36 2019
 
 import numpy as np
 from sklearn import datasets
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 
 iris = datasets.load_iris()
